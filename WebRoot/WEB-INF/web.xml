@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+                      http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+  version="2.5"
+  metadata-complete="true">
+	
+	<servlet>
+		<servlet-name>xxx</servlet-name>
+		<servlet-class>cn.itcast.web.servlet.AServlet</servlet-class>
+		<init-param>
+			<param-name>p1</param-name>
+			<param-value>v1</param-value>
+		</init-param>
+			<init-param>
+			<param-name>p2</param-name>
+			<param-value>v2</param-value>
+		</init-param>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>xxx</servlet-name>
+		<url-pattern>/AServlet</url-pattern>
+	</servlet-mapping>
+</web-app>
