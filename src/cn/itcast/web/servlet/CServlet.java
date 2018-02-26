@@ -24,7 +24,6 @@ public class CServlet implements Servlet {
 
 	@Override
 	public String getServletInfo() {
-		// TODO Auto-generated method stub
 		return null;
 	}
 
